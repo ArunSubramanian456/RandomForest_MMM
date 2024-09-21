@@ -17,7 +17,6 @@ from sklearn.model_selection import TimeSeriesSplit
 
 import warnings
 import shap
-shap.initjs()
 
 
 class AdstockGeometric(BaseEstimator, TransformerMixin):
