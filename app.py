@@ -212,7 +212,6 @@ def main():
     # Other pages (implement as needed)
     elif option == 'Feature Importance':
         st.subheader('Feature Importance')
-        st.set_option('deprecation.showPyplotGlobalUse', False)
         st.pyplot(shap_feature_importance(df_shap_values, x_input_interval_transformed, figsize = (16, 8)))
 
         st.write("**Observations:**")
