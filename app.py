@@ -157,7 +157,7 @@ def main():
         r2_metric = r2_score(y_true = y_true_interval, y_pred = prediction_interval)
 
         st.markdown(f'**MAPE:** {mape_metric*100:.2f}%')
-        st.markdown(f'**RSQUARE:{r2_metric*100:.2f}%')
+        st.markdown(f'**RSQUARE:** {r2_metric*100:.2f}%')
 
 
         
