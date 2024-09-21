@@ -147,8 +147,7 @@ def main():
         st.markdown(
             """
             - **Observation 1:** Despite 44% YoY decline in Ad spend, media contribution is up from 12% to 14%.
-            - **Observation 2:** Among the media channels, Facebook, Search and TV are the top 3 drivers
-            - **Observation 3:** Holiday and events has the least effect on sales
+            - **Observation 2:** Marketing investment declined from being 3.25% of PTM sales to only 1.9% of TTM sales
             """
         )
 
